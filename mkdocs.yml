@@ -1,0 +1,36 @@
+site_name: Digital Coupon Platform
+site_url: https://digital-coupon.com/
+nav:
+  - Homepage: index.md
+  - Revision history: historijaRevizija.md
+  - Introduction: uvod.md
+  - General description: opciOpis.md
+  - External Interfaces Requirements Specification: specZahtjevaVanjskihInterfejsa.md
+  - System characteristics : karakteristikeSistema.md
+  - Other non-functional requirements: ostaliNefunkcionalniZahtjevi.md
+
+theme: material
+font:
+  text: Roboto Mono
+extra:
+ social:
+      - icon: fontawesome/brands/twitter
+        link: https://twitter.com/squidfunk
+      - icon: fontawesome/brands/linkedin
+        link: https://twitter.com/linked
+      - icon: fontawesome/brands/facebook
+        link: https://facebook.com/github
+plugins: #export u pdf
+ - search
+ - print-site
+ - glightbox
+
+markdown_extensions:
+  - tables
+  - attr_list
+  - md_in_html
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
